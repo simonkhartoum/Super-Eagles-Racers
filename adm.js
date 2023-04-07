@@ -104,27 +104,11 @@ function deleteRecord(id) {
     .then((res) => res.json())
     .then((data) => console.log(data));
 }
-
-
-
-
-
-
-
-
-
+//editing the wins
 const editButton = document.getElementById('vin');
-
-
-
 editButton.addEventListener('click', () =>{
-
-
-  console.log('edit clicked for our button', bikes.id);
+console.log('edit clicked for our button', bikes.id);
 })
-
-
-
 function  editwins(id){
 
     fetch(`http://localhost:3000/bikes/${id}`,{

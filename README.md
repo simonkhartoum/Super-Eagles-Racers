@@ -6,9 +6,4 @@ Use JSON parsing
 Connect your server and frontend
 Fetch the bike data from the JSON file
 Add the bike info to the bike card
-
-
-
-
-
-serch(price)
+new html css and javascrip files for the admin section
